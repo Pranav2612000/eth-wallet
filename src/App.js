@@ -1,15 +1,20 @@
 import './App.css';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+} from "react-router-dom";
+import Home from "./components/pages/Home.jsx";
 
 function App() {
   return (
     <div className="App">
-      <div className="grid grid-cols-12">
-        <div className="col-span-6">
-        </div>
-        <div className="col-span-6">
-            Wallet Section
-        </div>
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
