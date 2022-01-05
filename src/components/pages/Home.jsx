@@ -4,9 +4,9 @@ import PurpleCircle from "../common/PurpleCircle";
 function Home() {
   return (
     <div className="grid grid-cols-12 h-screen">
-      <div className="col-span-6 string-bg">
+      <div className="col-span-12 lg:col-span-6 string-bg">
       </div>
-      <div className="bg-black col-span-6 relative flex items-center justify-center">
+      <div className="bg-black col-span-12 lg:col-span-6 relative flex items-center justify-center">
         <PurpleCircle className={"w-[111px] h-[111px] top-[calc(30%-55px)] left-[calc(20%-55px)]"}/>
         <PurpleCircle className={"w-[240px] h-[240px] top-[calc(70%-120px)] left-[calc(80%-120px)]"}/>
         <Button
