@@ -5,8 +5,23 @@ import PurpleCircle from "../common/PurpleCircle";
 function Home() {
   return (
     <div className="grid grid-cols-12 h-screen">
-      <div className="col-span-12 lg:col-span-6 string-bg">
+      <div className="col-span-12 lg:col-span-6 string-bg pt-10 px-16">
         <Logo/>
+        <PurpleCircle className={"w-[130px] h-[130px] top-36 left-4"}/>
+        <div className="mt-36 relative z-10">
+          <h2 className="text-[3.25rem] leading-[68px]"> Easiest and <br/> fastest way to <br/> invest your <br/> wallet currency. </h2>
+          <div>
+            <h4 className="mt-20">How it works?</h4>
+            <ul className="pl-3 mt-7 text-[26px] leading-[32px]" type="circle">
+              <li>Connect your wallet.</li>
+              <li>Decide how much you want to invest.</li>
+              <li>Select your protocol.</li>
+              <li>
+                <span class="text-[#9362dc]">Happy </span>
+                <span class="text-[#e95569]">Investing</span></li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div className="bg-black col-span-12 lg:col-span-6 relative flex items-center justify-center">
         <PurpleCircle className={"w-[111px] h-[111px] top-[calc(30%-55px)] left-[calc(20%-55px)]"}/>

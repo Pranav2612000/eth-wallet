@@ -4,7 +4,7 @@ import logo from '../../../assets/images/icons/logo.svg';
 
 const Logo = ({className}) => {
   return (
-    <button className={clsx("flex justify-center items-center w-auto absolute top-10 left-10", className)}>
+    <button className={clsx("flex justify-center items-center w-auto absolute", className)}>
       <Img  
         srcSet= {
           [
