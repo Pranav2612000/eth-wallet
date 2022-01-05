@@ -1,10 +1,12 @@
 import Button from "../common/Button";
+import Logo from "../common/Logo";
 import PurpleCircle from "../common/PurpleCircle";
 
 function Home() {
   return (
     <div className="grid grid-cols-12 h-screen">
       <div className="col-span-12 lg:col-span-6 string-bg">
+        <Logo/>
       </div>
       <div className="bg-black col-span-12 lg:col-span-6 relative flex items-center justify-center">
         <PurpleCircle className={"w-[111px] h-[111px] top-[calc(30%-55px)] left-[calc(20%-55px)]"}/>
