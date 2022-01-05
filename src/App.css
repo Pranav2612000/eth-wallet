@@ -90,3 +90,38 @@ button.dark {
   position: absolute;
   border-radius: 50%;
 }
+
+.track-render {
+  top: 0px;
+  bottom: 0px;
+  border-radius: 999px;
+  /*
+  height: 10px;
+  width: 20px;
+  border: 8px solid; border-image-source: linear-gradient(90deg, #FFFFFF 4.38%, rgba(255, 255, 255, 0) 120.75%);
+  */
+}
+.track-0 {
+  background: linear-gradient(to right, rgba(117, 0, 212, 100%) , rgba(231, 45, 156, 20%));
+  height: 10px;
+  border-radius: 32px;
+}
+.track-1 {
+  height: 10px;
+  border-radius: 32px;
+}
+
+.slider {
+  background: linear-gradient(to right, rgba(255,255,255, 100%) , rgba(255,255,255,0%));
+  height: 10px;
+  border-radius: 32px;
+}
+
+.thumb {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -6px;
+  background: linear-gradient(179.83deg, #E71969 0.15%, rgba(231, 45, 156, 0.2) 154.2%);
+  border-radius: 999px;
+}
