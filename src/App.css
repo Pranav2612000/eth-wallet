@@ -57,3 +57,12 @@ button.dark {
   background: url('assets/images/background/home-left.png') no-repeat bottom right;
   background-size: cover;
 }
+
+.purple {
+  background: linear-gradient(179.83deg, #7500D4 0.15%, rgba(231, 45, 156, 0) 154.2%);
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
