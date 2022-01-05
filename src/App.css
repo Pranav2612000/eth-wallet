@@ -16,6 +16,23 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('assets/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'IBM Plex Mono';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+}
+
+p {
+  font-family: 'IBM Plex Mono';
+}
 
 button {
   width: 220px;
@@ -29,4 +46,9 @@ button.dark {
   background: linear-gradient(132.05deg, rgba(255, 255, 255, 0.2) 9.09%, rgba(255, 255, 255, 0.05) 75.51%);
   backdrop-filter: blur(40px);
   color: white;
+}
+
+.glass-effect {
+  background: linear-gradient(132.05deg, rgba(255, 255, 255, 0.2) 9.09%, rgba(255, 255, 255, 0.05) 75.51%);
+  backdrop-filter: blur(40px);
 }
