@@ -52,3 +52,8 @@ button.dark {
   background: linear-gradient(132.05deg, rgba(255, 255, 255, 0.2) 9.09%, rgba(255, 255, 255, 0.05) 75.51%);
   backdrop-filter: blur(40px);
 }
+
+.string-bg {
+  background: url('assets/images/background/home-left.png') no-repeat bottom right;
+  background-size: cover;
+}

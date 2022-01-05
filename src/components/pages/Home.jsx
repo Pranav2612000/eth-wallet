@@ -3,7 +3,7 @@ import Button from "../common/Button";
 function Home() {
   return (
     <div className="grid grid-cols-12 h-screen">
-      <div className="col-span-6">
+      <div className="col-span-6 string-bg">
       </div>
       <div className="bg-black col-span-6 relative flex items-center justify-center">
         <Button
